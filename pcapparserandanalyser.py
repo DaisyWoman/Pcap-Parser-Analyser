@@ -141,7 +141,7 @@ def vt_hostscan(data):
         params = {"apikey": VT_API_KEY, "domain": host}
         response = requests.get(VT_DOMAİN_URL, params=params)
         response_json = response.json()
-        print("[*]Virustotal Scanning...")
+        print("[*]Virustotal is scanning...")
         if (
             response_json.get("detected_downloaded_samples")
             or response_json.get("detected_urls")
@@ -176,7 +176,7 @@ def vt_filescan(data):
         files = {"file": ("body.txt", file_io)}
         filescan_response = requests.post(VT_FILESCAN_URL, files=files, params=filescan_params)
         filescan_json = filescan_response.json()
-        print("[*]Virustotal Scanning...")
+        print("[*]Virustotal is scanning...")
         with open("filescan.json", "w") as filescan_json_io:
             json.dump(filescan_json, filescan_json_io, indent=4)
 
