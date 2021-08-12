@@ -184,7 +184,7 @@ def vt_filescan(data):
         filereport_params = {"apikey": VT_API_KEY, "resource": filescan_json["md5"]}
         filereport_response = requests.get(VT_FILEREPORT_URL, params=filereport_params)
         filereport_json = filereport_response.json()
-        print("[*]Virustotal Scanning...")
+        print("[*]Virustotal is scanning...")
         if filereport_json.get("positives") > 0:
                 print("Suspicious!")
         elif filereport_json.get("positives") == 0:
