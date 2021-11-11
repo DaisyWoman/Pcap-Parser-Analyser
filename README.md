@@ -10,7 +10,7 @@
 
 pcapparserandanalyser -h 
 
-![usage.png](https://user-images.githubusercontent.com/78450137/131730228-ded23589-3290-406a-8787-7762ae04eb09.png)
+![usage.png]
 
 
 
