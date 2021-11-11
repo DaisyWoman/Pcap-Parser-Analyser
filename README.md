@@ -1,9 +1,9 @@
 # Pcap Parser Analyser
 
 <p>-Read a PCAP file.</p>
-<p>-Parse the HTTP requests and HTTP response.</p>
-<p>-Extract HTTP requests,response and dump those into a JSON file.</p>
-<p>-Parse the json file, Extract HTTP body and transferred file.</p>
+<p>-Parses the HTTP requests and HTTP responses.</p>
+<p>-Extracts HTTP requests,responses and dumps those into a JSON file.</p>
+<p>-Parses the json file, Extracts HTTP body and transferred file.</p>
 <p>-Virustotal scan.</p>
 
 ## Usage
